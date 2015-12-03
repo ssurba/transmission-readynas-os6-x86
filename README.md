@@ -2,7 +2,7 @@
 
 Latest version is: 2.84-0.01
 
-This is a special build of Transmission Bittorrent client for current line of NETGEAR ReadyNAS OS6 systems on ARM architecture - ReadyNAS 300, 500, 700 series, 3220/4220 and others.  
+This is a special build of Transmission Bittorrent client for current line of NETGEAR ReadyNAS OS6 systems on x86 architecture - ReadyNAS 300, 500, 700 series, 3220/4220 and others.  
 
 You can download the add-on in the Releases section: https://github.com/ssurba/transmission-readynas-os6-x86/releases
 
