@@ -1,0 +1,10 @@
+Package: transmission
+Version: 2.84-0.01
+Architecture: amd64
+Maintainer: Sergey Surba <sergey@surba.me>
+Depends: readynasos (>= 6.1.0), libc6 (>= 2.13), libevent-2.0-5 (>= 2.0.19-stable), libcurl3 (>= 7.31.0)
+Section: contrib/net
+Priority: extra
+Description: A Fast, Easy, and Free BitTorrent Client
+ This is a special build of Transmission Bittorrent client 
+ as an add-on for NETGEAR ReadyNAS OS 6 storage systems.

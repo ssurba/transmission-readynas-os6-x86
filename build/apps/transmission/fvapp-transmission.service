@@ -1,0 +1,14 @@
+[Unit]
+Description=Transmission BitTorrent Daemon
+After=network.target
+
+[Service]
+User=guest
+Group=guest
+UMask=0
+Type=notify
+EnvironmentFile=/apps/transmission/fvapp-transmission.env
+ExecStart=/apps/transmission/bin/transmission-daemon -f --log-error
+
+[Install]
+WantedBy=multi-user.target

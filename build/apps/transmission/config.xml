@@ -1,0 +1,14 @@
+<Application resource-id="transmission"> <!-- 'resource-id' must be AppName -->
+  <AppID>SSURBA_GENIEAPP_000001</AppID>
+  <Name>Transmission</Name> <!-- Any desciptive name, upto 48 chars -->
+  <Author>© Transmission Project, build by Sergey Surba</Author> <!-- Authors name. upto 48 chars -->
+  <Version>2.84-0.01</Version> <!-- Version -->
+  <RequireReboot>0</RequireReboot> <!-- If non-zero, it indicate reboot is required. -->
+  <ConfigURL /><!-- 'localhost' will be replaced by framework JS. -->
+  <LaunchURL>http://localhost:9091</LaunchURL> <!-- 'localhost' will be replaced by framework JS. -->
+  <InfoURL>https://github.com/ssurba/transmission-readynas-os6-x86</InfoURL>
+  <ReservePort>9091</ReservePort>
+  <DebianPackage>transmission</DebianPackage>
+  <ServiceName>fvapp-transmission.service</ServiceName> <!-- If start/stop need to start/stop service, specify service name -->
+  <Description lang="en-us">Transmission is a Fast, Easy, and Free BitTorrent Client. This is a special build of Transmission as an add-on for NETGEAR ReadyNAS OS 6 storage systems.</Description>
+</Application>
